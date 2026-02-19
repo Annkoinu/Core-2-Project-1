@@ -52,7 +52,7 @@ body {
     z-index: 9999;
     text-decoration: none;
     color: #ffffff;
-    font-family: "GT Alpina Light", serif;
+    font-family: "GT Alpina Light";
     font-size: clamp(16px, 1.6vw, 18px);
     opacity: 0.75;
     line-height: 1;
@@ -115,7 +115,7 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    font-family: "GT Alpina Light", serif;
+    font-family: "GT Alpina Light";
     color: #FFFFFF;
     font-size: clamp(56px, 10vw, 140px);
     line-height: 0.9;

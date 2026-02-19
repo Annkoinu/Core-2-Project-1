@@ -142,11 +142,11 @@ svg {
 
 .intro.play {
     animation: fadeout 900ms ease forwards;
-    animation-delay: 3000ms;
+    animation-delay: 2500ms;
 }
 
 .title {
-    font-family: "GT Alpina", serif;
+    font-family: "GT Alpina";
     color: white;
     text-align: center;
     font-size: clamp(56px, 8vw, 120px);
@@ -238,28 +238,23 @@ svg {
   bottom: clamp(12px, 2vw, 22px);
   z-index: 99999;
   pointer-events: auto;
-
   display: inline-flex;
   align-items: center;
-
   padding: clamp(8px, 1.2vw, 10px) clamp(12px, 1.6vw, 14px);
-  border: 1px solid rgba(49,16,4,0.35);
+  border: 1px solid rgba(49,16,4,0.25);
   border-radius: 999px;
-  background: rgba(253,255,250,0.85);
+  background: #ffffff;
   color: rgb(56, 20, 2);
   text-decoration: none;
   opacity: 0.5;
-
-  font-family: "GT Alpina", serif;
+  font-family: "GT Alpina";
   font-size: clamp(12px, 1.4vw, 14px);
-  letter-spacing: 0.02em;
 
-  backdrop-filter: blur(6px);
 }
 
 .authorintro:hover{
-  border-color: rgba(49,16,4,0.6);
-  background: rgba(253,255,250,0.95);
+  border-color: rgba(49,16,4,0.5);
+  background: rgba(255, 255, 255, 0.95);
   opacity: 1;
 }
 
