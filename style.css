@@ -142,7 +142,7 @@ svg {
 
 .intro.play {
     animation: fadeout 900ms ease forwards;
-    animation-delay: 1ms;
+    animation-delay: 3000ms;
 }
 
 .title {
