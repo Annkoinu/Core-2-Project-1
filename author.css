@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'GT Sectra';
+    src: url('GT-Sectra/GT-Sectra-Book-Trial.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Alpina';
+    src: url('GT-Alpina/GT-Alpina-Extended-Regular-Trial.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GT Alpina Thin';
+    src: url('GT-Alpina/GT-Alpina-Fine-Extended-Thin-Trial.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GT Alpina Light';
+    src: url('GT-Alpina/GT-Alpina-Fine-Extended-Light-Trial.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GT Canon';
+    src: url('GT-Canon/GT-Canon-L-Standard-Light-Trial.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+
+}
+
+body {
+    background-color: #1C1C1C;
+    margin: 0;
+    min-height: 100vh;
+}
+
+
+.back {
+    position: fixed;
+    top: 5vh;
+    left: 7vh;
+    z-index: 9999;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "GT Alpina Light", serif;
+    font-size: clamp(16px, 1.6vw, 18px);
+    opacity: 0.75;
+    line-height: 1;
+}
+
+.card {
+    position: relative;
+}
+
+
+.signature {
+    position: absolute;
+    z-index: 4;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.2s;
+    opacity: 0.5;
+}
+
+@media (max-width: 720px) {
+    .signature {
+        top: 50%;
+        opacity: 0.5;
+    }
+}
+
+.back:hover {
+    opacity: 1;
+}
+
+.wrap {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    z-index: 3;
+    overflow: visible;
+    min-width: (980px, 92vw);
+    margin: 40px auto 0;
+
+}
+
+.card {
+    width: min(920px, 85vw);
+    position: relative;
+    overflow: visible;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.name {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "GT Alpina Light", serif;
+    color: #FFFFFF;
+    font-size: clamp(56px, 10vw, 140px);
+    line-height: 0.9;
+    white-space: nowrap;
+    pointer-events: none;
+}
+
+.text {
+    margin-top: 3%;
+    margin-left: 40%;
+    margin-right: 7%;
+
+}
+
+p {
+    color: #FFFFFF;
+    font-family: 'GT Alpina Thin';
+    margin-top: 3%;
+    font-size: clamp(14px, 1.7vw, 18px);
+    line-height: 1.55;
+    color: #ffffff;
+}
